@@ -10,13 +10,13 @@ const root = createRoot(document.getElementById("root"))
 
 function Header() {
     return (
-        <header>
-            <img src="react-logo.png" width="40px" alt="React logo" />
+        <header className="header">
+            <img className="image" src="react-logo.png" alt="React logo" />
             <nav>
                 <ul className= "nav-list">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li className ="navListItem">Pricing</li>
+                    <li className ="navListItem">About</li>
+                    <li className ="navListItem">Contact</li>
                 </ul>
             </nav>
         </header>
