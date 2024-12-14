@@ -20,12 +20,23 @@ Part 2:
 
 function Page() {
     return (
-        <ol>
+      <div>
+        <header>
+          <img src="rect-logo.png" width="40px" alt="react logo"/>
+        </header>
+        <main>
+          <h1>React reasons to learn<h1/>
+          <ol>
             <li>React is a popular library, so I will be able to
             fit in with all the coolest devs out there! 😎</li>
             <li>I am more likely to get a job as a front end developer
             if I know React</li>
-        </ol>
+          </ol>
+          <footer>
+            <h6>"© 2024 bobo development. All rights reserved."</h6>
+          </footer>
+        </main>
+      </div>
     )
 }
 
